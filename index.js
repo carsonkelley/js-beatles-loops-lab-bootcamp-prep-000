@@ -13,3 +13,11 @@ function johnLennonFacts(facts) {
   }
   return facts
 }
+function iLoveTheBeatles(num) {
+  var howMuch = []
+  do {
+    howMuch.push("I love the Beatles!")
+    num++
+  } while (num < 15)
+  return howMuch
+}
